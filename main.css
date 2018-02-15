@@ -1,0 +1,92 @@
+body{
+    text-align: center;
+    padding: 10px;
+    background-image: url("bg.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #000;
+}
+
+p.headear{
+    font-size: .9em;
+    font-style: normal;
+}
+
+p.header2{
+    font-size: .8em;
+    font-style: italic;
+}
+
+.container{
+    background-color:peru;
+    border-radius: 30px;
+    max-width: 400px;
+}
+
+#reset, #mute, #randomizer, #start {
+    background-color: brown;
+    color: white;
+    width: 100x;
+    height: 30px;
+    font-size: .9em;
+    margin-right: 10px;
+    border-radius: 10px;
+
+}
+
+
+#matrix{
+    width: 300px;
+    height: 160px;
+}
+
+
+#volume, #speed{
+    width: 100px;
+    height: 100px;
+    padding: 0px;
+    margin:10px;
+}
+
+@media screen and (max-width: 480px) {
+    
+body{
+
+    padding: 10px;
+
+}    
+
+#reset, #mute, #randomizer, #start{
+    background-color: brown;
+    color: white;
+    width: 70px;
+    height: 20px;
+    font-size: .7em;
+    margin-right: 2px;
+    border-radius: 10px;
+
+}
+
+
+#matrix{
+    width: 150px;
+    height: 100px;
+}
+
+
+#volume, #speed{
+    width: 90px;
+    height: 90px;
+    padding: 0px;
+    margin-top:10px;
+}
+p.headear{
+    font-size: .7em;
+    font-style: normal;
+}
+
+p.header2{
+    font-size: .6em;
+    font-style: italic;
+}
