@@ -28,10 +28,11 @@
         <canvas id="matrix" nx="matrix" label="Patterns"></canvas>
     </div>
     <div class="row">
-        <div class="col-xs-6 col-md-3"><button id="reset" class="btn-warning" onclick="reset()">RESET</button></div>
-        <div class="col-xs-6 col-md-3"><button id="mute" class="btn-warning" onclick="mute()">MUTE</button></div>
-        <div class="col-xs-6 col-md-3"><button id="randomizer" class="btn-warning" onclick="randomizer()">RANDOM</button><br><br></div>
-        <div class="col-xs-6 col-md-3"><button id="start" class="btn-warning" onclick="playSound(hat, con.currentTime, volumeValue)">START</button></div>
+        <div class="col-xs-6 col-md-3"><input type="button" id="reset"  value="Reset" class="btn-warning" onclick="reset()"></input></div>
+        <div class="col-xs-6 col-md-3"><input type="button" id="mute" value="Mute" class="btn-warning" onclick="mute()"></input></div>
+        <div class="col-xs-6 col-md-3"><input type="button" id="randomizer"  value="Random" class="btn-warning" onclick="randomizer()"></input><br><br></div>
+        <div class="col-xs-6 col-md-3"><input type="button" id="start" value="Start" class="btn-warning" onclick="playSound(hat, con.currentTime, volumeValue)"></input></div>
+	<!-- <div class="col-xs-6 col-md-3"><input type="button" id="stop" value="Stop" class="btn-warning" onclick="stopPlay(con.currentTime)"></input></div> -->
     </div>
 </div>
 

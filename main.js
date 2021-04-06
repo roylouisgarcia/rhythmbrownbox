@@ -150,6 +150,11 @@ function loadSample(url, callback) {
     request.send();
 }
 
+function stopPlay(time){
+  //  player.stop(time);
+  //wait-time = 0;
+ // now = max_future_time*2;
+}
 
 function randomizer()
 {
@@ -187,18 +192,23 @@ function speedChanged(data)
 
 function mute(){
     if (muted === false){
+	document.getElementById("mute").value="Unmute";    
+	//document.getElementById("volume").label="Volume (Muted)";    
         lastVolume = volumeValue;
         volumeValue = 0;
         volume.val.value = volumeValue;
+	volume.label = "Volume (Muted)";    
         volume.draw();
         muted = true;
-        this.value = "UNMUTE";
+       // this.value = "UNMUTE";
     }else{
         volumeValue = lastVolume;
         volume.val.value = volumeValue;
+	volume.label = "Volume";    
         volume.draw();
         muted = false;
-        this.value = "MUTE";
+	document.getElementById("mute").value="Mute";    
+       // this.value = "MUTE";
     }    
 
 }
