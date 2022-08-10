@@ -1,6 +1,6 @@
 # RHYTHM BROWN BOX - html, css, js, api 
 
-Using the Nexus UI API and [WebAudio API](https://www.w3.org/TR/webaudio/) , this project explores the ability to create beats or sounds using the browser and programming random beats or controlled via UI. This project can be viewed [here](https://portfolio.dmsx.tech/portfolioentries/currentprojects/rhythmbrownbox/)
+Using the Nexus UI API and [WebAudio API](https://www.w3.org/TR/webaudio/) , this project explores the ability to create beats or sounds using the browser and programming random beats or controlled via UI. This project can be viewed [here](https://roylouisgarcia.github.io/portfolio/portfolioentries/currentprojects/rhythmbrownbox/)
 
 ## Screenshots:
 
